@@ -1,0 +1,1 @@
+execute as @a[tag=player] at @s as @e[tag=headsolver,distance=..6] run function dungeon:headsolver/mark_interaction

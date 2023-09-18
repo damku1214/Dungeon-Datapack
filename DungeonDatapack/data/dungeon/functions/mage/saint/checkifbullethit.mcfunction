@@ -1,0 +1,3 @@
+execute as @e[tag=saintnormalbullet1] at @s as @e[distance=..2,tag=!player,type=!item,type=!item_frame,type=!glow_item_frame,type=!armor_stand,type=!arrow] at @s run damage @s 2 magic
+execute as @e[tag=saintnormalbullet1] at @s if entity @e[distance=..2,tag=!player,type=!item,type=!item_frame,type=!glow_item_frame,type=!armor_stand,type=!arrow] as @a[tag=player,tag=saint] at @s run function dungeon:mage/saint/normalhealstart
+execute as @e[tag=saintnormalbullet1] at @s if entity @e[distance=..2,tag=!player,type=!item,type=!item_frame,type=!glow_item_frame,type=!armor_stand,type=!arrow] run function dungeon:mage/saint/bulletkill

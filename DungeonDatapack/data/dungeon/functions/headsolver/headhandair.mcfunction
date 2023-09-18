@@ -1,0 +1,4 @@
+execute as @a[tag=player,nbt={SelectedItem:{id:"minecraft:creeper_head",Count:1b}}] at @s run item replace entity @s weapon.mainhand with minecraft:air
+execute as @a[tag=player,nbt={SelectedItem:{id:"minecraft:wither_skeleton_skull",Count:1b}}] at @s run item replace entity @s weapon.mainhand with minecraft:air
+execute as @a[tag=player,nbt={SelectedItem:{id:"minecraft:zombie_head",Count:1b}}] at @s run item replace entity @s weapon.mainhand with minecraft:air
+execute as @a[tag=player,nbt={SelectedItem:{id:"minecraft:skeleton_skull",Count:1b}}] at @s run item replace entity @s weapon.mainhand with minecraft:air

@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Cette capacité est en recharge pendant ","color":"red"},{"score":{"name":"@s","objective":"emperorkneelcdsec"},"color":"red"},{"text":" secondes.","color":"red"}]

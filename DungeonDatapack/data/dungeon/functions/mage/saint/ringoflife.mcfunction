@@ -1,0 +1,2 @@
+execute as @a[tag=player,tag=saint] at @s run effect give @a[tag=player,distance=..5] regeneration infinite 0 true
+execute as @a[tag=player,tag=saint] at @s run effect clear @a[tag=player,distance=6..] regeneration
